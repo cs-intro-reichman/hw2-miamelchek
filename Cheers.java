@@ -1,7 +1,7 @@
 
 public class Cheers {
         public static void main(String[] args) {
-                String name = args[0];
+                String name = args[0].toUpperCase();
                 int cheerTimes = Integer.parseInt(args[1]);
                 String specialLetters = "AEFHILMNORSX";
 
@@ -18,7 +18,7 @@ public class Cheers {
                 }
 
                 System.out.println("What does that spell?");
-                
+
                 for(int x = 0; x < cheerTimes; x++){
                         System.out.println(name + "!!!");
                 }
