@@ -1,4 +1,6 @@
-
+// very good 
+// you don't need to indentate with two tabs the if block 
+// one is enough 
 public class Cheers {
         public static void main(String[] args) {
                 String name = args[0].toUpperCase();

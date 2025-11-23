@@ -1,3 +1,5 @@
+//nice!
+
 public class CalcPi {
 	public static void main(String [] args) { 
         int termsNum = Integer.parseInt(args[0]);
